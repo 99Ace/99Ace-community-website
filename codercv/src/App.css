@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+/* navbar styling */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 600px;
+}
+.face-card {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: solid 1px grey;
+  box-shadow: grey 1px 2px 5px 3px;
+  margin: 10px auto;
+}
+.bg-setting{ 
+  background-size: cover;
+  background-position: center;
+}
+.bg-img-male {
+  background-image: url(images/male.jpg);
+}
+.bg-img-female {
+  background-image: url(images/female.jpg);
+}
